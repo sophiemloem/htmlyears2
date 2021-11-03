@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*  Companent button */
+
+.btn{
+    cursor: pointer;
+    border: none;
+    padding: 10px ;
+    border-radius: 7px;
+}
+.btn-teal{
+    background: rgb(0, 167, 103);
+    color: rgb(253, 253, 251);
+}
+.btn-orange{
+    background: rgb(0, 140, 255);
+    color: white;
+}
+.btn-green{
+    background: rgb(2, 138, 172);
+    color: rgb(255, 254, 255);
+}
+
+/*  Companent table */
+
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th,
+.table td{
+    padding: 10px;
+}
+.table-boder th,
+.table-boder td{
+    border: 1px solid #ccc;
+}
+.table-striped  tbody tr:nth-child(odd){
+    background: #aaa;
+    border-bottom: 1px solid #bbb;
+}
+.table-hover tbody tr:hover{
+    background: teal;
+}
+
+/* Companent menu */
+nav{
+    background: black;
+}
+.nav-orange{
+    background: teal;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #bbb;
+}
+.nav-item:hover{
+    background: yellow;
+}
+.nav-orange,
+.nav-link{
+    color:wheat;
+}
+ 
+.text-upper{
+    text-transform: uppercase;
+}

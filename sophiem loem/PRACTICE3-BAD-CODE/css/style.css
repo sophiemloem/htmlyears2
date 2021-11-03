@@ -1,0 +1,42 @@
+/* what your style do for? */
+body{
+    font-family: sans-serif;margin:0;padding:0;background-color: #aca18e;
+}
+
+/* what your style do for? */
+.topnavigationbar{
+    background-color: #979391;   height: 8vh;    display: flex;    justify-content: center;    align-items: center;
+    color:white;
+}
+
+/* what your style do for? */
+.maincontent{
+    display: flex;
+}
+
+/* what your style do for? */
+.sidebarleftdisplay{
+    width: 20%;    background-color: #312031;height: 92vh; color:white; border-right:5px solid rgba(254, 254, 255, 0.6);
+    /* margin: 0; */
+}
+
+
+/* what your style do for? */
+.maincontant{
+    width: 80%;    background-color: #aca18e;
+    display: flex;    padding: 10px;
+    justify-content: space-between;    margin-bottom: 10px;    flex-wrap: wrap;
+
+}
+
+/* what your style do for? */
+.individualbox{
+    width: 32%;
+    background-color: rgb(214, 220, 226,0.8);    margin-bottom: 10px;    height: 50%;
+    border-radius: 5px;    display: flex;    align-items: center;    color:black;    justify-content: center;
+}
+
+/* what your style do for? */
+li{
+    padding: 10px;
+}

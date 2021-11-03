@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:rgb(255, 123, 0) ;
+}
+UL{
+    display: flex;
+    list-style:none;
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.box{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border{
+    width: 400px;
+    background: white;
+    padding: 20px;
+    margin-left: 10px;
+}
+.box1{
+    padding: 10px;
+    margin-bottom: 7px;
+    width: 96%;
+    box-sizing: border-box;
+}
+.col{
+    background: rgb(175, 175, 175);
+}
+.color{
+    background: orangered;
+    color: white;
+}
+strong{
+    color: orangered;
+}
+

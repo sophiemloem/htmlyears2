@@ -1,0 +1,39 @@
+body{
+    margin: 10px;
+    padding: 0;
+    font-family: sans-serif;
+}
+.form{
+    text-align: center;
+    margin-top: 10vh;
+    background: rgb(241, 221, 221);
+    width: 30%;
+    margin: auto; 
+    border-radius: 15px;
+}
+.box{
+    padding: 40px;
+}
+.icons i{
+    font-size: 70px;
+    color: rgb(55, 55, 190);
+}
+.col{
+    width:70%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.Login{
+    width: 75%;
+    padding: 10px;
+    color: rgb(244, 244, 247);
+    background: rgb(59, 59, 230);
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 3vh;
+}
+span{
+    margin-left: 5vh;
+}

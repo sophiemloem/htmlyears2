@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: rgb(122, 9, 187);
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.box{
+    background: white;
+    padding: 25px;
+}
+.box1{
+    padding: 10px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    width: 96%;
+    box-sizing: border-box;
+}
+.col{
+    background: rgb(189, 187, 187);
+}
+.color{
+    background: rgb(76, 76, 168);
+}
+
+
+
+

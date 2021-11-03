@@ -1,0 +1,33 @@
+
+
+.container-app {
+    margin: 0;
+    padding: 0;
+}
+
+.main-content, .header {
+    color: #fff;
+    margin-top:100px;
+    width: 90%;
+}
+
+.header_left,.header_right {
+    width: 30%;
+    margin-top: 100px;
+    background: #fff;
+}
+
+.sidebar_left, .sidebar_right {
+    width: 60%;
+    background: #000;
+}
+.sidebar_left,
+.sidebar_right,
+.header_left,
+.header_right,
+.main-content,
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
